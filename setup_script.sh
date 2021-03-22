@@ -8,4 +8,5 @@ git checkout HEAD script-library
 popd
 mv vscode-dev-containers/script-library ./library-scripts
 rm -rf vscode-dev-containers
+popd
 docker build -t godevcontainer:latest .
