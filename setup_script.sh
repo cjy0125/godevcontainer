@@ -14,7 +14,7 @@ fi
 
 mkdir .devcontainer
 pushd .devcontainer
-git clone --no-checkout --depth 1 git://github.com/microsoft/vscode-dev-containers
+git clone --no-checkout --depth 1 https://github.com/microsoft/vscode-dev-containers.git
 pushd vscode-dev-containers
 git checkout HEAD script-library
 popd
